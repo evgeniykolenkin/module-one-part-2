@@ -195,14 +195,13 @@ h2 {
   color: #ffffff;
 }
 
-.last {
+.service:nth-last-child(1) {
   padding-bottom: 150px;
 }
 
 .service__title {
   width: 660px;
   height: 41px;
-  margin-bottom: 60px;
   font-size: 30px;
   line-height: 40.98px;
   letter-spacing: -0.03em;
