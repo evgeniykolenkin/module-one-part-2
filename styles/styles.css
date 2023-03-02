@@ -154,6 +154,7 @@ h2 {
 }
 
 .section__services h2 {
+  margin-left: 125px;
   padding-top: 151px;
   color: #ffffff;
 }
