@@ -16,8 +16,9 @@ body {
   background-color: #ffffff;
 }
 .container {
-  margin: 0 auto;
-  width: 100%;
+  max-width: 1150px;
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 h1 {
@@ -26,7 +27,6 @@ h1 {
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -0.03em;
-  margin-left: 125px;
   margin-bottom: 30px;
 }
 
@@ -34,7 +34,6 @@ h1 {
   position: relative;
   width: 1150px;
   height: 500px;
-  margin-left: 125px;
   background-image: url(../resources/room.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -57,7 +56,6 @@ h1 {
 h2 {
   width: 79px;
   height: 25px;
-  margin-left: 125px;
   margin-top: 150px;
   margin-bottom: 30px;
   font-size: 18px;
@@ -68,7 +66,6 @@ h2 {
 .about p {
   width: 1048px;
   height: 366px;
-  margin-left: 128px;
   font-size: 45px;
   line-height: 61.47px;
   letter-spacing: -0.03em;
@@ -80,7 +77,6 @@ h2 {
   text-decoration: none;
   width: 255px;
   font-size: 20px;
-  margin-left: 125px;
   margin-top: 30px;
   padding: 20px, 40px;
   line-height: 67px;
@@ -92,10 +88,6 @@ h2 {
 
 .projects {
   width: 100%;
-}
-
-.item {
-  margin-left: 125px;
 }
 
 .item__photo {
@@ -128,10 +120,9 @@ h2 {
 
 .projects__all {
   box-sizing: border-box;
+  width: 100%;
   max-width: 1150px;
   height: 153px;
-  margin-left: 125px;
-  margin-right: 125px;
   margin-bottom: 150px;
   border: 1px solid #ad1818;
   border-radius: 5px;
@@ -157,7 +148,8 @@ h2 {
 
 .section__services {
   box-sizing: border-box;
-  width: 100%;
+  width: 1400px;
+  margin-left: -125px;
   background-color: #121212;
 }
 
